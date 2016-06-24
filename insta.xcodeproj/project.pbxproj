@@ -7,14 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		386FEB841D1AFB1600DA9E3A /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386FEB831D1AFB1600DA9E3A /* ProfileViewController.swift */; };
+		386FEB861D1B068400DA9E3A /* PostCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386FEB851D1B068400DA9E3A /* PostCollectionCell.swift */; };
+		386FEB881D1B88DC00DA9E3A /* MyTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386FEB871D1B88DC00DA9E3A /* MyTabBarController.swift */; };
 		38A9ABC31D171DC200351F02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A9ABC21D171DC200351F02 /* AppDelegate.swift */; };
 		38A9ABC51D171DC200351F02 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A9ABC41D171DC200351F02 /* ViewController.swift */; };
 		38A9ABC81D171DC200351F02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38A9ABC61D171DC200351F02 /* Main.storyboard */; };
 		38A9ABCA1D171DC200351F02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38A9ABC91D171DC200351F02 /* Assets.xcassets */; };
 		38A9ABCD1D171DC200351F02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38A9ABCB1D171DC200351F02 /* LaunchScreen.storyboard */; };
+		38A9ABD51D17204000351F02 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A9ABD41D17204000351F02 /* LoginViewController.swift */; };
+		38A9ABD71D174B0E00351F02 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A9ABD61D174B0E00351F02 /* HomeViewController.swift */; };
+		38A9ABD91D1862BA00351F02 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A9ABD81D1862BA00351F02 /* Post.swift */; };
+		38A9ABDB1D188C2500351F02 /* postCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A9ABDA1D188C2500351F02 /* postCell.swift */; };
+		38A9ABDD1D188E7300351F02 /* PostsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A9ABDC1D188E7300351F02 /* PostsViewController.swift */; };
+		38A9ABDF1D1999B400351F02 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A9ABDE1D1999B400351F02 /* DetailViewController.swift */; };
+		849EEC0A1A76776321FEE98D /* Pods_insta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5094B7FFEAC1C95657F5E93 /* Pods_insta.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1438F51659998289248639F5 /* Pods-insta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-insta.release.xcconfig"; path = "Pods/Target Support Files/Pods-insta/Pods-insta.release.xcconfig"; sourceTree = "<group>"; };
+		386FEB831D1AFB1600DA9E3A /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		386FEB851D1B068400DA9E3A /* PostCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCollectionCell.swift; sourceTree = "<group>"; };
+		386FEB871D1B88DC00DA9E3A /* MyTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTabBarController.swift; sourceTree = "<group>"; };
 		38A9ABBF1D171DC200351F02 /* insta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = insta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38A9ABC21D171DC200351F02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		38A9ABC41D171DC200351F02 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +36,14 @@
 		38A9ABC91D171DC200351F02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		38A9ABCC1D171DC200351F02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		38A9ABCE1D171DC200351F02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38A9ABD41D17204000351F02 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = ../LoginViewController.swift; sourceTree = "<group>"; };
+		38A9ABD61D174B0E00351F02 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		38A9ABD81D1862BA00351F02 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		38A9ABDA1D188C2500351F02 /* postCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = postCell.swift; sourceTree = "<group>"; };
+		38A9ABDC1D188E7300351F02 /* PostsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostsViewController.swift; sourceTree = "<group>"; };
+		38A9ABDE1D1999B400351F02 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		545D8A587E5C5093F589B7F9 /* Pods-insta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-insta.debug.xcconfig"; path = "Pods/Target Support Files/Pods-insta/Pods-insta.debug.xcconfig"; sourceTree = "<group>"; };
+		D5094B7FFEAC1C95657F5E93 /* Pods_insta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_insta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				849EEC0A1A76776321FEE98D /* Pods_insta.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,8 +61,11 @@
 		38A9ABB61D171DC200351F02 = {
 			isa = PBXGroup;
 			children = (
+				386FEB871D1B88DC00DA9E3A /* MyTabBarController.swift */,
 				38A9ABC11D171DC200351F02 /* insta */,
 				38A9ABC01D171DC200351F02 /* Products */,
+				679B8B42C499D7E7D68BF774 /* Pods */,
+				623E9808E6A5F9AF79D51B4A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +80,39 @@
 		38A9ABC11D171DC200351F02 /* insta */ = {
 			isa = PBXGroup;
 			children = (
+				38A9ABD41D17204000351F02 /* LoginViewController.swift */,
 				38A9ABC21D171DC200351F02 /* AppDelegate.swift */,
+				38A9ABDC1D188E7300351F02 /* PostsViewController.swift */,
 				38A9ABC41D171DC200351F02 /* ViewController.swift */,
 				38A9ABC61D171DC200351F02 /* Main.storyboard */,
+				386FEB851D1B068400DA9E3A /* PostCollectionCell.swift */,
+				386FEB831D1AFB1600DA9E3A /* ProfileViewController.swift */,
+				38A9ABDA1D188C2500351F02 /* postCell.swift */,
+				38A9ABD81D1862BA00351F02 /* Post.swift */,
 				38A9ABC91D171DC200351F02 /* Assets.xcassets */,
 				38A9ABCB1D171DC200351F02 /* LaunchScreen.storyboard */,
 				38A9ABCE1D171DC200351F02 /* Info.plist */,
+				38A9ABD61D174B0E00351F02 /* HomeViewController.swift */,
+				38A9ABDE1D1999B400351F02 /* DetailViewController.swift */,
 			);
 			path = insta;
+			sourceTree = "<group>";
+		};
+		623E9808E6A5F9AF79D51B4A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5094B7FFEAC1C95657F5E93 /* Pods_insta.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		679B8B42C499D7E7D68BF774 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				545D8A587E5C5093F589B7F9 /* Pods-insta.debug.xcconfig */,
+				1438F51659998289248639F5 /* Pods-insta.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +122,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 38A9ABD11D171DC200351F02 /* Build configuration list for PBXNativeTarget "insta" */;
 			buildPhases = (
+				24D9F80113038163E74DFAC4 /* [CP] Check Pods Manifest.lock */,
 				38A9ABBB1D171DC200351F02 /* Sources */,
 				38A9ABBC1D171DC200351F02 /* Frameworks */,
 				38A9ABBD1D171DC200351F02 /* Resources */,
+				C0880EC76DB09E5A2BB7F8F1 /* [CP] Embed Pods Frameworks */,
+				F4302B21FB71BB57816A3207 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,13 +184,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		24D9F80113038163E74DFAC4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C0880EC76DB09E5A2BB7F8F1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-insta/Pods-insta-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4302B21FB71BB57816A3207 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-insta/Pods-insta-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		38A9ABBB1D171DC200351F02 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38A9ABDD1D188E7300351F02 /* PostsViewController.swift in Sources */,
+				38A9ABD51D17204000351F02 /* LoginViewController.swift in Sources */,
+				386FEB881D1B88DC00DA9E3A /* MyTabBarController.swift in Sources */,
+				38A9ABDB1D188C2500351F02 /* postCell.swift in Sources */,
 				38A9ABC51D171DC200351F02 /* ViewController.swift in Sources */,
 				38A9ABC31D171DC200351F02 /* AppDelegate.swift in Sources */,
+				38A9ABD71D174B0E00351F02 /* HomeViewController.swift in Sources */,
+				386FEB841D1AFB1600DA9E3A /* ProfileViewController.swift in Sources */,
+				38A9ABD91D1862BA00351F02 /* Post.swift in Sources */,
+				38A9ABDF1D1999B400351F02 /* DetailViewController.swift in Sources */,
+				386FEB861D1B068400DA9E3A /* PostCollectionCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +358,7 @@
 		};
 		38A9ABD21D171DC200351F02 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 545D8A587E5C5093F589B7F9 /* Pods-insta.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = insta/Info.plist;
@@ -258,6 +370,7 @@
 		};
 		38A9ABD31D171DC200351F02 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1438F51659998289248639F5 /* Pods-insta.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = insta/Info.plist;
@@ -286,6 +399,7 @@
 				38A9ABD31D171DC200351F02 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

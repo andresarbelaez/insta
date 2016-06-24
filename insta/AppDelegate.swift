@@ -7,15 +7,55 @@
 //
 
 import UIKit
+import Parse
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
 
     var window: UIWindow?
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+       /* window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        
+        let captureNavigationController = storyboard.instantiateViewControllerWithIdentifier("captureNavigationController") as! UINavigationController
+        
+       captureNavigationController.tabBarItem.title = "Capture"
+        
+        let tabBarController = UITabBarController()
+        tabBarController.viewControllers = [captureNavigationController]
+        
+        window?.rootViewController = tabBarController
+        window?.makeKeyAndVisible() */
+        
+
+        
+        
+        Parse.initializeWithConfiguration(
+            ParseClientConfiguration(block: { (configuration:ParseMutableClientConfiguration) -> Void in
+                configuration.applicationId = "insta"
+                configuration.clientKey = "asgasdfasdfasdf"
+                configuration.server = "https://sleepy-beach-36758.herokuapp.com/parse"
+            })
+        )
+        
+        
+        
+        if PFUser.currentUser() != nil {
+            let mainStoryboard : UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+            let initialViewController : UIViewController = mainStoryboard.instantiateViewControllerWithIdentifier("PostsNavigationController") as UIViewController
+            
+            let initViewController: UITabBarController = mainStoryboard.instantiateViewControllerWithIdentifier("tabBarController") as! UITabBarController
+            self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
+            self.window?.rootViewController = initViewController
+            self.window?.makeKeyAndVisible()
+            //load the home view controller here somehow
+        }
+        
+        
         return true
     }
 
