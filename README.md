@@ -44,9 +44,10 @@ Please list two areas of the assignment you'd like to **discuss further with you
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://i.imgur.com/9GbImXC.gif' title='Double tap to like' width='' alt='Video Walkthrough' />
+
 <img src='https://i.imgur.com/i7zzkQR.gif' title='Logging in' width='' alt='Video Walkthrough' />
 <img src='https://i.imgur.com/uAGv040.gif' title='Logging in as different user' width='' alt='Video Walkthrough' />
+<img src='https://i.imgur.com/9GbImXC.gif' title='Double tap to like' width='' alt='Video Walkthrough' />
 <img src='https://i.imgur.com/bY9CQaN.gif' title='Posting a photo' width='' alt='Video Walkthrough' />
 <img src='https://i.imgur.com/J7wljIM.gif' title='Clicking on username to display profile' width='' alt='Video Walkthrough' />
 
